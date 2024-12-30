@@ -1,0 +1,9 @@
+{
+  "name": "cloudinary-serverless-functions",
+  "version": "1.0.0",
+  "main": "netlify/functions/list-images.js",
+  "license": "MIT",
+  "dependencies": {
+    "cloudinary": "^1.29.1"
+  }
+}
