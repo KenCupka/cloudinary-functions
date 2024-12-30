@@ -1,9 +1,21 @@
 {
-  "name": "cloudinary-serverless-functions",
+  "name": "enchanting-entremet-a95eed",
   "version": "1.0.0",
-  "main": "netlify/functions/list-images.js",
-  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "cloudinary": "^1.29.1"
+    "cloudinary": "^1.29.1",
+    "next": "13.4.13",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.13"
   }
 }
